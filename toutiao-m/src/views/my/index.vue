@@ -1,6 +1,6 @@
 <template>
   <div class="layout-container">
-    <h1>my</h1>
+    <van-button type="primary" @click="$router.push('/login')">登录</van-button>
   </div>
 </template>
 
